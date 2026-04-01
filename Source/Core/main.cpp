@@ -8,4 +8,6 @@ int main() {
 	// Initialize GLFW
 	glfwInit();
 
+
+
 }

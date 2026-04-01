@@ -19,30 +19,66 @@
     <Filter Include="Resource Files\Data">
       <UniqueIdentifier>{59bc0579-fa9d-4b25-9c4b-8b777713689b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{bae314c7-b574-44c8-ad4e-7edf612e4eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{06962531-e89c-4767-8a7a-56cda2ae9f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{4c81772c-c081-489f-b857-8215c67284cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Buffers">
+      <UniqueIdentifier>{9e8b3faf-df26-4c8e-bc25-6b3b6658ee05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{543951b2-a87d-4fb9-ad4f-af0ade5b79ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{9ada31a9-6d28-49fb-a98b-7d58ac4e436b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{566ce4dc-5016-4e7e-b461-b1e8b622d0a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Buffers">
+      <UniqueIdentifier>{d7c40b44-0ac5-4726-80f3-fcb96179065e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Core\main.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Source\Graphics\Buffers\VAO.cpp">
+      <Filter>Source Files\Graphics\Buffers</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Graphics\camera.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Scene\point_cloud.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Source\Graphics\Buffers\VBO.cpp">
+      <Filter>Source Files\Graphics\Buffers</Filter>
     </ClCompile>
     <ClCompile Include="Source\Utils\shader.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\point_cloud.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\camera.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\main.cpp">
+      <Filter>Source Files\Core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\Graphics\camera.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Source\Graphics\Buffers\VBO.h">
+      <Filter>Header Files\Graphics\Buffers</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Utils\shader.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Source\Graphics\Buffers\VAO.h">
+      <Filter>Header Files\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\camera.h">
+      <Filter>Header Files\Graphics</Filter>
     </ClInclude>
     <ClInclude Include="Source\Scene\point_cloud.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils\shader.h">
+      <Filter>Header Files\Utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
