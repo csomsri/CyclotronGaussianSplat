@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CyclotronGaussianSplat.vcxproj" Id="001b0540-3431-48e3-9b04-a0dc1e0ac3d7" />
+</Solution>
