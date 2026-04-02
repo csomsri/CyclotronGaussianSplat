@@ -148,6 +148,7 @@
     <ClInclude Include="Source\Scene\point_cloud.h" />
     <ClInclude Include="Source\Utils\Data\data_map.h" />
     <ClInclude Include="Source\Utils\Data\dbreader.h" />
+    <ClInclude Include="Source\Utils\Data\signal_row.h" />
     <ClInclude Include="Source\Utils\shader.h" />
   </ItemGroup>
   <ItemGroup>

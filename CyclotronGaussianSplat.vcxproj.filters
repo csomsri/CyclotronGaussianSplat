@@ -49,6 +49,9 @@
     <Filter Include="Source Files\Utils\Data">
       <UniqueIdentifier>{7c478e3d-aa6b-4b7f-b816-5ab0533aa389}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Utils\Data">
+      <UniqueIdentifier>{17868bb7-bd59-44b5-8c29-d010f19f7afd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Graphics\Buffers\VAO.cpp">
@@ -105,10 +108,13 @@
       <Filter>Header Files\Graphics</Filter>
     </ClInclude>
     <ClInclude Include="Source\Utils\Data\data_map.h">
-      <Filter>Source Files\Utils\Data</Filter>
+      <Filter>Header Files\Utils\Data</Filter>
     </ClInclude>
     <ClInclude Include="Source\Utils\Data\dbreader.h">
-      <Filter>Source Files\Utils\Data</Filter>
+      <Filter>Header Files\Utils\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils\Data\signal_row.h">
+      <Filter>Header Files\Utils\Data</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
