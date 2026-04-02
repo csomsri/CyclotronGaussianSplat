@@ -129,18 +129,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source\Core\main.cpp" />
+    <ClCompile Include="Source\Graphics\Buffers\EBO.cpp" />
     <ClCompile Include="Source\Graphics\Buffers\VAO.cpp" />
     <ClCompile Include="Source\Graphics\Buffers\VBO.cpp" />
     <ClCompile Include="Source\Graphics\camera.cpp" />
+    <ClCompile Include="Source\Graphics\renderer.cpp" />
     <ClCompile Include="Source\Scene\point_cloud.cpp" />
     <ClCompile Include="Source\Utils\shader.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Graphics\Buffers\EBO.h" />
     <ClInclude Include="Source\Graphics\Buffers\VAO.h" />
     <ClInclude Include="Source\Graphics\Buffers\VBO.h" />
     <ClInclude Include="Source\Graphics\camera.h" />
+    <ClInclude Include="Source\Graphics\renderer.h" />
     <ClInclude Include="Source\Scene\point_cloud.h" />
     <ClInclude Include="Source\Utils\shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\basic\fragment_shader.glsl" />
+    <None Include="Shader\basic\vertex_shader.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

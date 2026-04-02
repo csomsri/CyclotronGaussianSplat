@@ -16,3 +16,7 @@ void VAO::setAttribute(uint32_t index, uint32_t size, uint32_t type, uint32_t st
 	glVertexAttribPointer(index, size, type, GL_FALSE, stride, (void*)offset);
 	glEnableVertexAttribArray(index);
 }	
+
+VAO::~VAO() {
+	glDeleteVertexArrays(1, &ID);
+}	

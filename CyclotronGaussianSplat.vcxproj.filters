@@ -43,6 +43,9 @@
     <Filter Include="Header Files\Graphics\Buffers">
       <UniqueIdentifier>{d7c40b44-0ac5-4726-80f3-fcb96179065e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Shaders\basic">
+      <UniqueIdentifier>{9add24e1-4ecb-4ebb-8bd2-c94f718dbf4e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Graphics\Buffers\VAO.cpp">
@@ -63,6 +66,12 @@
     <ClCompile Include="Source\Core\main.cpp">
       <Filter>Source Files\Core</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Graphics\Buffers\EBO.cpp">
+      <Filter>Source Files\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\renderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Graphics\Buffers\VBO.h">
@@ -80,5 +89,19 @@
     <ClInclude Include="Source\Utils\shader.h">
       <Filter>Header Files\Utils</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Graphics\Buffers\EBO.h">
+      <Filter>Header Files\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\renderer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\basic\vertex_shader.glsl">
+      <Filter>Resource Files\Shaders\basic</Filter>
+    </None>
+    <None Include="Shader\basic\fragment_shader.glsl">
+      <Filter>Resource Files\Shaders\basic</Filter>
+    </None>
   </ItemGroup>
 </Project>
