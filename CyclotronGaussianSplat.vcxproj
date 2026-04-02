@@ -135,6 +135,8 @@
     <ClCompile Include="Source\Graphics\camera.cpp" />
     <ClCompile Include="Source\Graphics\renderer.cpp" />
     <ClCompile Include="Source\Scene\point_cloud.cpp" />
+    <ClCompile Include="Source\Utils\Data\data_map.cpp" />
+    <ClCompile Include="Source\Utils\Data\dbreader.cpp" />
     <ClCompile Include="Source\Utils\shader.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -144,11 +146,15 @@
     <ClInclude Include="Source\Graphics\camera.h" />
     <ClInclude Include="Source\Graphics\renderer.h" />
     <ClInclude Include="Source\Scene\point_cloud.h" />
+    <ClInclude Include="Source\Utils\Data\data_map.h" />
+    <ClInclude Include="Source\Utils\Data\dbreader.h" />
     <ClInclude Include="Source\Utils\shader.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Data\channel_data_subset.csv" />
     <None Include="Shader\basic\fragment_shader.glsl" />
     <None Include="Shader\basic\vertex_shader.glsl" />
+    <None Include="Source\Utils\Data\DataExtract.sql" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

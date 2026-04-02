@@ -46,6 +46,9 @@
     <Filter Include="Resource Files\Shaders\basic">
       <UniqueIdentifier>{9add24e1-4ecb-4ebb-8bd2-c94f718dbf4e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Utils\Data">
+      <UniqueIdentifier>{7c478e3d-aa6b-4b7f-b816-5ab0533aa389}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Graphics\Buffers\VAO.cpp">
@@ -72,6 +75,12 @@
     <ClCompile Include="Source\Graphics\renderer.cpp">
       <Filter>Source Files\Graphics</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Utils\Data\data_map.cpp">
+      <Filter>Source Files\Utils\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Data\dbreader.cpp">
+      <Filter>Source Files\Utils\Data</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Graphics\Buffers\VBO.h">
@@ -95,6 +104,12 @@
     <ClInclude Include="Source\Graphics\renderer.h">
       <Filter>Header Files\Graphics</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Utils\Data\data_map.h">
+      <Filter>Source Files\Utils\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils\Data\dbreader.h">
+      <Filter>Source Files\Utils\Data</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\basic\vertex_shader.glsl">
@@ -102,6 +117,12 @@
     </None>
     <None Include="Shader\basic\fragment_shader.glsl">
       <Filter>Resource Files\Shaders\basic</Filter>
+    </None>
+    <None Include="Source\Utils\Data\DataExtract.sql">
+      <Filter>Source Files\Utils\Data</Filter>
+    </None>
+    <None Include="Assets\Data\channel_data_subset.csv">
+      <Filter>Resource Files\Data</Filter>
     </None>
   </ItemGroup>
 </Project>
